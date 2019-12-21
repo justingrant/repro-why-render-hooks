@@ -1,6 +1,6 @@
 Repro case for https://github.com/welldone-software/why-did-you-render/issues/77
 
-Steps:
+**Repro Steps**
 
 1. `git clone https://github.com/justingrant/repro-why-render-hooks` (this is a just-created CRA app with non-essential files removed and only one dependency added: `@welldone-sofwtare/why-did-you-render`)
 2. `cd repro-why-render-hooks`
