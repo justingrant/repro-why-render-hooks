@@ -10,7 +10,8 @@ Repro case for https://github.com/welldone-software/why-did-you-render/issues/77
 6. right-click + Inspect to open dev tools
 7. select the ⚛Profiler tab
 8. click the "Reload and start profiling" button (it looks like a little refresh icon)
-9. click on the `Repro` component in the Flamegraph view
+9. after the page reloads, click the red "Stop profiling" button
+10. click on the `Repro` component in the Flamegraph view
 
 Expected: no crash
 
