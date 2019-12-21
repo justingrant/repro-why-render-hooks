@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import ReactDOM from "react-dom";
 
-const whyDidYouRender = require("@welldone-software/why-did-you-render/dist/no-classes-transpile/umd/whyDidYouRender.min.js");
+const whyDidYouRender = require("@welldone-software/why-did-you-render");
 whyDidYouRender(React);
 
 function App() {
