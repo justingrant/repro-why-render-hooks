@@ -8,9 +8,10 @@ Steps:
 4. `npm start`
 5. open http://localhost:3000 in Chrome
 6. right-click + Inspect to open dev tools
-7. select the Profiler tab
+7. select the ⚛ Profiler tab
 8. click the "Reload and start profiling" button (it looks like a little refresh icon)
 9. click on the `Repro` component in the Flamegraph view
 
 Expected: no crash
+
 Actual: crash! `TypeError: Cannot read property 'push' of undefined` inside React Dev Tools
